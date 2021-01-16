@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "DSA_KingdomQuest",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "D:\\Programs\\Epic Games\\UE_4.25"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
