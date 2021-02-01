@@ -10,7 +10,10 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off"
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.forcedInclude": [
+			"D:\\university\\year 3\\Final year project\\DSA-KingdomQuest\\DSA_KingdomQuest\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\DSA_KingdomQuest\\Definitions.DSA_KingdomQuest.h"
+		]
 	},
 	"extensions": {
 		"recommendations": [
