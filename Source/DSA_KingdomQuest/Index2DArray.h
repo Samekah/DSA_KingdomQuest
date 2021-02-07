@@ -19,6 +19,9 @@ class DSA_KINGDOMQUEST_API UIndex2DArray : public UBlueprintFunctionLibrary
 	public:
 		
 		UFUNCTION(BlueprintCallable, Category = "Custom")
-		static void ReturnKey(TArray<FInputAxisKeyMapping> InputArray, TArray<FKey> MovementKeys);
+		static void ReturnKey(TArray<FInputAxisKeyMapping> InputArray, TArray<FKey>& MovementKeys);
+
+		UFUNCTION(BlueprintCallable, Category = "Custom")
+		static void ReturnAKey(TArray<FInputActionKeyMapping> InputArray, TArray<FKey>& MovementKeys);
 
 };
