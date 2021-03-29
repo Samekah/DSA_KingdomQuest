@@ -16,29 +16,29 @@ void ULearningStyleTest::CalculateLearningStyle(TArray<int32> LearningStyleValue
     }
 
     if(LearningStyleValues[2] < LearningStyleValues[3]){
-        CLS.Style1_Letter = "B";
-        CLS.Style1_Value = LearningStyleValues[3] - LearningStyleValues[2];
+        CLS.Style2_Letter = "B";
+        CLS.Style2_Value = LearningStyleValues[3] - LearningStyleValues[2];
     }
     else{
-        CLS.Style1_Letter = "A";
-        CLS.Style1_Value = LearningStyleValues[2] - LearningStyleValues[3];
+        CLS.Style2_Letter = "A";
+        CLS.Style2_Value = LearningStyleValues[2] - LearningStyleValues[3];
     }
 
     if(LearningStyleValues[4] < LearningStyleValues[5]){
-        CLS.Style1_Letter = "B";
-        CLS.Style1_Value = LearningStyleValues[5] - LearningStyleValues[4];
+        CLS.Style3_Letter = "B";
+        CLS.Style3_Value = LearningStyleValues[5] - LearningStyleValues[4];
     }
     else{
-        CLS.Style1_Letter = "A";
-        CLS.Style1_Value = LearningStyleValues[4] - LearningStyleValues[5];
+        CLS.Style3_Letter = "A";
+        CLS.Style3_Value = LearningStyleValues[4] - LearningStyleValues[5];
     }
 
     if(LearningStyleValues[6] < LearningStyleValues[7]){
-        CLS.Style1_Letter = "B";
-        CLS.Style1_Value = LearningStyleValues[7] - LearningStyleValues[6];
+        CLS.Style4_Letter = "B";
+        CLS.Style4_Value = LearningStyleValues[7] - LearningStyleValues[6];
     }
     else{
-        CLS.Style1_Letter = "A";
-        CLS.Style1_Value = LearningStyleValues[6] - LearningStyleValues[7];
+        CLS.Style4_Letter = "A";
+        CLS.Style4_Value = LearningStyleValues[6] - LearningStyleValues[7];
     }
 }
